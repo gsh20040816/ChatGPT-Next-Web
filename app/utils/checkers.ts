@@ -14,8 +14,6 @@ export function identifyDefaultClaudeModel(modelName: string) {
   const modelMeta = allModals.find((m) => m.name === modelName);
 
   return (
-    modelName.startsWith("claude") &&
-    modelMeta &&
-    modelMeta.provider?.providerType === "anthropic"
+    0
   );
 }
